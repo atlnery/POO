@@ -76,7 +76,7 @@ class Fila{
                 delete(primeiro->NoAnterior());
                 primeiro->AlteraAnterior(NULL);
                 quantidade--;
-                return false; 
+                return true; 
             }
         }
 
